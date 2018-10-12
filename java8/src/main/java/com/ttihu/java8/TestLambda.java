@@ -70,7 +70,13 @@ public class TestLambda {
         return emps;
     }
 
+    public Integer operation(Integer num, MyFun myFun) {
+        return myFun.getValue(num);
+    }
 
-
+    @Test
+    public void testLambda1(){
+        System.out.println(operation(100, x -> x * x));
+    }
 
 }

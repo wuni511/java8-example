@@ -7,5 +7,5 @@ package com.ttihu.java8;
  */
 @FunctionalInterface
 public interface MyFun {
-    public Integer getValue();
+    public Integer getValue(Integer num);
 }
