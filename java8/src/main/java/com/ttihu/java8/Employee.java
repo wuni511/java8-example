@@ -11,7 +11,10 @@ public class Employee {
     private double slalary;
 
     public Employee() {
-        super();
+    }
+
+    public Employee(String name) {
+        this.name = name;
     }
 
     public Employee(String name, int age, double slalary) {
